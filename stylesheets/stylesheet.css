@@ -8,6 +8,18 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+.pixel-grid {
+   opacity: 0;
+   transition: opacity 1000ms ease-out 500ms;
+   
+   &.appear {
+      opacity: 1;
+   }
+}
+
+
+
+
 /* General & 'Reset' Stuff */
 
 .container {
